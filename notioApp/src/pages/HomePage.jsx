@@ -6,7 +6,9 @@ export function HomePage() {
     <>
       <h1>HomePage</h1>
       <NavLink to="/about">
-        <Button variant="contained">Contained</Button>
+        <Button className="bg-red-800 hover:bg-slate-950" variant="contained">
+          Contained
+        </Button>
       </NavLink>
     </>
   );
