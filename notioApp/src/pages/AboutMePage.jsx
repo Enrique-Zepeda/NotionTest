@@ -6,7 +6,10 @@ export function AboutMePage() {
     <>
       <h1>AboutMe</h1>
       <NavLink to="/">
-        <Button className="bg-slate-950" variant="contained">
+        <Button
+          className="bg-slate-950 hover:bg-yellow-600"
+          variant="contained"
+        >
           Contained
         </Button>
       </NavLink>
